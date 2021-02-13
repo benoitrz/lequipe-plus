@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "LEQUIPE Plus",
+    "description": "The title of the application, displayed in the web store."
+  },
+  "appDesc": {
+    "message": "Avec LEQUIPE Plus, Lisez les articles abonnés gratuitement!", 
+    "description":"The description of the application, displayed in the web store."
+  }
+}

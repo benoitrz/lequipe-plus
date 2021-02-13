@@ -1,0 +1,24 @@
+{
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "version": "1.0",
+  "default_locale": "fr",
+  "manifest_version": 3,
+  "icons": {
+    "16": "public/assets/icon16.png",
+    "48": "public/assets/icon48.png",
+    "128": "public/assets/icon128.png" 
+  },
+  "content_scripts": [
+   {
+      "matches": ["https://*.lequipe.fr/*"],
+      "js": ["./src/content-scripts/article.js"],
+      "css": ["./public/stylesheets/styles.css"]
+   }
+ 	],
+  "web_accessible_resources": [{
+    "resources": ["./public/assets/*"],
+    "matches": ["https://*.lequipe.fr/*"],
+    "extension_ids": []
+  }]
+}

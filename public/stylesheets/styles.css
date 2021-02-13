@@ -1,0 +1,8 @@
+.Paragraph__content{ 
+    font-family: "DINNextLTPro-Regular",sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #1d1d1b;
+    color: var(--color-black,#1d1d1b);
+}
